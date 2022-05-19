@@ -1,0 +1,279 @@
+*{margin: 0;padding: 0;box-sizing: border-box; text-decoration: none; list-style: none;}
+:root{
+    --laranjaclaro: #ff7f1d;
+    --laranjaescuro: #A52100;
+    --textobotao:  #F1EEDF;
+    --dourado:  #CDA335;
+    --ocre:          #8D4B00; 
+    --marron:        #521000; 
+    --palha:        #F9BA47;
+
+}
+body{
+ font-family: 'Roboto', sans-serif;
+}
+header{
+    
+    padding: 10px 100px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: space-between;
+    position: absolute;
+    
+   
+}
+
+img{
+    width: 40%;
+    object-fit: contain;
+    height: 90%;
+    margin-left: -90px;
+}
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+
+.redesSociais, .menu{
+    display: flex;
+    gap: 20px;
+}
+.menu li{
+    /* background-color: var(--dourado); */
+    /* border: 2px solid var(--laranjaescuro); */
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+.menu li:hover{
+    background-color: var(--laranjaclaro);
+}
+.menu li a{
+    color: var(--textobotao);
+    text-shadow: 1px 1px 1px var(--marron);
+}
+.redesSociais{
+    margin-bottom: 50px;
+}
+.redesSociais li a i{
+    
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.redesSociais li:nth-of-type(2) a i{
+    color: #fff;
+    
+}
+.redesSociais li:nth-of-type(1) a i{
+    color: #fff;
+    
+}
+.redesSociais li:nth-of-type(3) a i{
+    color: #fff;
+    
+}
+.redesSociais li:hover{
+    transform: scale(1.4);
+}
+/******************************************************************************************************/
+div.banner{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(75,156,75,0.8);
+    margin-bottom: 42px;
+}
+/******************************************************************************************************/
+/* main*/
+main{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 42px;
+    /* background-color: #8D4B00; */
+    padding: 15px;
+}
+
+main section.home{
+    width: 333px;
+    height: 356px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 1px 1px 2px var(--laranjaescuro);
+
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(50,50,50, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.redesFooter{
+    margin: 0;
+}
+
+header#ingressos{
+    position: static;
+    margin-bottom: 10px;
+}
+
+form.ingressos{
+    width: 500px;
+    height: 400px;
+}
+form.ingressos fieldset{
+    border: 2px solid black;
+    height: 300px;
+    text-align: center;
+
+}
+
+/******************************************************************************************************/
+
+/*Contato*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dicas {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.dica{
+    margin-left: 10%;
+}
+
+.textdicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    
+}
+ 
+div {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5%;
+    margin: 0;
+    margin-top: 50px;     
+    margin-bottom: 4%; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1,h2 {
+    font-size: 30px;
+    margin-bottom: 4%;
+    padding-right: 4%;
+    margin-right:25px ;
+   
+}
+
+.form {
+    width: 100%;
+    font-size: 1.125rem;
+    margin:0 auto;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: flex;
+    width: 100%;
+  }
+
+  .form label {
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+
+  .form textarea {
+    min-height: 90px;
+    resize: vertical;
+  }
+
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: var(--laranjaclaro);;
+    box-shadow: 0 0 0 1px var(--laranjaclaro);;
+  }
+  
+  .form button {
+    display: flex;
+    padding: 10px 160px;
+    background: rgba(0,0,0,0.8);;
+    color: rgb(255, 255, 255);
+    font: inherit;
+    font-size:20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background:var(--laranjaclaro); 
+  }
+/******************************************************************************************************/
+
+/*quem somos*/
+
+#quemsomos{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+.title{
+    color: rgb(243, 81, 7); 
+    font-size: 30px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    
+}
+.img-qs{
+    width: 45%;
+    margin-left: 60px;
+    
+}
+.conteudo{
+    font-size: 14px;
+}
+
+ 
